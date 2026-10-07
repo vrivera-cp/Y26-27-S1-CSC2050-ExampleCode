@@ -1,0 +1,2 @@
+forward_declaration: 06_forward_declaration_main.c 06_forward_declaration.c 06_forward_declaration.h
+	gcc -pedantic -Wall -std=c99 -g 06_forward_declaration.c 06_forward_declaration_main.c -o forward_declaration
